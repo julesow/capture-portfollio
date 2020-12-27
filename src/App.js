@@ -1,6 +1,7 @@
 import AboutUs from "./pages/AboutUs";
 import OurWork from "./pages/OurWork";
 import ContactUs from "./pages/ContactUs";
+import MovieDetail from "./pages/MovieDetail";
 import NotFound from "./pages/NotFound";
 import GlobalStyle from "./components/GlobalStyle";
 import Nav from "./components/Nav";
@@ -15,7 +16,8 @@ function App() {
       <Nav />
       <Switch>
       <Route exact path="/"><AboutUs /></Route>
-      <Route path="/ourwork"><OurWork /></Route>
+      <Route exact path="/work"><OurWork /></Route>
+      <Route path="/work/:id"><MovieDetail /></Route>
       <Route path="/contactus"><ContactUs /></Route>
       <Route path="*"><NotFound /></Route>
       </Switch>

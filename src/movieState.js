@@ -17,19 +17,19 @@ export const MovieState = () => {
         {
           title: "Truly A masterpiece",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”"
         },
         {
           title: "Fresh look on a brutal sport.",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”"
         },
         {
           title: "It’s okay lmao.",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
-        },
-      ],
+            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”"
+        }
+      ]
     },
     {
       title: "Good Times",
@@ -40,19 +40,19 @@ export const MovieState = () => {
         {
           title: "Truly A masterpiece",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”"
         },
         {
           title: "Fresh look on a brutal sport.",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”"
         },
         {
           title: "It’s okay lmao.",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
-        },
-      ],
+            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”"
+        }
+      ]
     },
     {
       title: "The Racer",
@@ -63,19 +63,19 @@ export const MovieState = () => {
         {
           title: "Truly A masterpiece",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”"
         },
         {
           title: "Fresh look on a brutal sport.",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”"
         },
         {
           title: "It’s okay lmao.",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
-        },
-      ],
-    },
+            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”"
+        }
+      ]
+    }
   ];
 };
