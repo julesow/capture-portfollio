@@ -65,11 +65,15 @@ const OurWork = () => {
     </Work>
   );
 };
+
+
 const Work = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
   padding: 5rem 10rem;
-  background: white;
+  @media (max-width: 1300px) {
+    padding: 2rem 2rem;
+  }
   h2 {
     padding: 1rem 0rem;
   }
@@ -91,6 +95,7 @@ const Hide = styled.div`
   overflow: hidden;
 `;
 
+//Frame Animation
 const Frame1 = styled(motion.div)`
   position: fixed;
   left: 0;
