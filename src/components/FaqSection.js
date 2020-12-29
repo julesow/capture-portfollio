@@ -5,6 +5,7 @@ import Toggle from "./Toggle";
 import {AnimateSharedLayout} from "framer-motion"
 import {useScroll} from './useScroll'
 import {scrollReveal} from '../animation'
+import ScrollTop from "./ScrollTop";
 
 
 
@@ -58,6 +59,7 @@ const FaqSection = () => {
         <div className="faq-line"></div>
       </Toggle>
       </AnimateSharedLayout>
+      <ScrollTop />
     </FAQ>
   );
 };
